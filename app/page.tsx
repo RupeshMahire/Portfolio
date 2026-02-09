@@ -1,11 +1,13 @@
 import ScrollyCanvas from "@/components/ScrollyCanvas";
-import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
+import UnderConstruction from "@/components/UnderConstruction";
 
 export default function Home() {
   return (
-    <main className="bg-[#121212] min-h-screen">
+    <main className="bg-[#121212] min-h-screen relative">
       <ScrollyCanvas />
-      <Projects />
+      <Skills />
+      <UnderConstruction />
 
       <footer className="py-12 text-center text-gray-500 text-sm">
         <p>&copy; {new Date().getFullYear()} Rupesh Mahire. All Rights Reserved.</p>

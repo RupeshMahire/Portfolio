@@ -6,27 +6,22 @@ export const portfolioData = {
         certification: "AWS and Google Certified",
     },
     skills: {
-        headline: "Specializing in AIML, RAG, & LLMs.",
-        description: "Expertise in NLP, AWS Deployment, and building scalable AI solutions.",
+        headline: "Tech Stack & Expertise",
+        description: "A comprehensive toolkit for building scalable, AI-driven solutions.",
+        techStack: [
+            "Full Stack Apps", "Python", "Java", "DSA",
+            "AI", "ML", "NLP", "DL", "LLM", "Gen AI",
+            "TensorFlow", "PyTorch", "Scikit-learn", "Keras",
+            "Next.js", "React", "Node.js", "Express",
+            "Data Science", "Data Engineering",
+            "Pandas", "NumPy", "Matplotlib", "Spark", "Hadoop",
+            "AWS", "Google Cloud", "Docker", "Kubernetes", "PostgreSQL",
+            "LangChain", "OpenAI API", "Hugging Face"
+        ]
     },
-    projects: [
-        {
-            title: "RAG Knowledge Base",
-            category: "AI & NLP",
-            year: "2025",
-            description: "An intelligent document retrieval system using LLMs and vector databases for enterprise search."
-        },
-        {
-            title: "AWS AI Deployment",
-            category: "DevOps & Cloud",
-            year: "2024",
-            description: "Scalable machine learning pipeline architecture deployed on AWS infrastructure."
-        },
-        {
-            title: "GenAI Content Platform",
-            category: "Full Stack",
-            year: "2024",
-            description: "Next.js application integrating generative AI models for dynamic content creation."
-        }
-    ]
+    social: {
+        linkedin: "https://www.linkedin.com/in/rupesh-mahire-sci",
+        message: "Let's Connect & Innovate Together",
+        note: "My portfolio is currently under active development. Soon it will be on full fire! Connect with me on LinkedIn to stay updated on my journey and future projects."
+    }
 };
